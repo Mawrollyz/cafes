@@ -1,0 +1,111 @@
+ @font-face{
+    font-family: 'SairaCondensed-Black';
+    src: url('fonts/SairaCondensed-Black.ttf') format('truetipe');
+ }
+ 
+ body {
+            /* задний фон страницы */
+            background-image: url(https://img.freepik.com/free-photo/abstract-smooth-brown-wall-background-layout-designstudioroomweb-templatebusiness-report-with-smooth_1258-54272.jpg?semt=ais_hybrid&w=740&q=80);
+            /* картинка не повторяется  */
+            background-repeat: no-repeat;
+            /* размер картинки на весь экран*/
+            background-size: cover;
+            /* граница */
+            /* border: 2px solid black;  */
+            /* ширина границы */
+            border-width: 2px;
+            /* стиль границы */
+            border-style: solid;
+            /* цвет границы */
+            border-color: black;
+            /* внутренний отступ от контента до его границы */
+            padding: 10px;
+            /* шрифт */
+            font-family: 'Saira Condensed-Black', cursive;
+            /* отступ слева */
+            margin-left: 20%;
+            /* отступ справа */
+            margin-right: 20%;
+            /* выравнивание текста по центру */
+            text-align: center;
+            color: black;
+            font-size: 20px;
+            line-height: 1.2;
+        }
+
+        p{
+            color:rgb(9, 31, 65);
+        } 
+        h1, h2{
+            color: gray;
+        }
+        h1{
+            /* подчеркивание на всю ширину эллемента */
+            /* border-bottom: 2px solid black; */
+            /* подчеркивание только на ширину контента */
+            text-decoration: underline;
+        }
+       
+        /* .coffeeSection{
+            color: yellow;
+            font-weight: 900;
+        }
+        .teaSection{
+            color: green;
+            font-weight: 900;
+        }
+        .limonadeSection{
+            color: rgb(196, 199, 6);
+            font-weight: 900;
+        } */
+        blockquote{
+            font-weight: 900;
+        }
+        .subtitle{
+            color:rgb(0, 0, 0);
+            font-style: italic;
+        }
+        .description{
+            background-image: url(images/background.gif);
+            background-repeat: no-repeat;
+            background-position: top left;
+            background-color: brown;
+            border-radius: 20px;
+            border-left: 5px solid black;
+            padding: 20px 20px 20px 80px;
+            margin-bottom: 50px;
+        }
+        .marked-list{
+            background-color: brown;
+            border-radius: 20px;
+            border-left: 5px solid black;
+            padding: 25px;
+            margin-bottom: 40px;
+        }
+        .marked-list ul{
+            /* убирает маркеры списка или задать свои маркеры */
+            list-style-type: none;
+        }
+        .marked-list li{
+            background-color: red;
+            border: 1px solid brown;
+            margin: 10px 0 ;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .marked-list span{
+            font-weight: 700;
+            color: white;
+        }
+        /* этот селектор применяется к непосещенным ссылкам */
+        a:link{ 
+            color: brown;
+        }
+        /* этот селектор применяется к посещенным ссылкам */
+        a:visited{
+            color: brown;
+        }
+        /* этот селектор применяется при наведении на ссылку */
+        a:hover{
+            color: yellow;
+        }
